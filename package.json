@@ -1,0 +1,31 @@
+{
+  "name": "king-theme",
+  "displayName": "King-theme",
+  "description": "Dark Hacker Extension",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "King-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/King-theme-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icons/icon.png",
+  "author": {
+    "name": "Samuel Rey",
+    "email": "samuelestebanrey13@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/SamuelRey15/extension-codigo-theme.git",
+    "type": "git"
+  },
+    "publisher": "king-tecsup"
+}
